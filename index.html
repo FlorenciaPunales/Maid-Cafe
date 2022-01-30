@@ -4,12 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primera página web</title>
+    <title>Robots encuesta</title>
 </head>
 <body>
-    <h1>Mi página web</h1>
-    <h2>Subtitulo</h2>
-    <p>Lorem ipsum dolor sit <b>amet</b> consectetur, adipisicing elit. Minus natus repudiandae dolor suscipit incidunt doloribus officia corrupti. Perspiciatis quidem sapiente nesciunt, ducimus sed dolore consequatur. Vitae facilis et minima molestiae? Haz <a href="">Click aquí</a> para mas información</p>
-<a href=""></a>
+        <h1>Encuesta acerca de los robots.</h1>
+        <p>Queremos saber que opinas acerca de los avances de estos.</p>   
+
+    <div>
+        <form action="/Thanks.html">
+            <label for="evolucion">
+                <span>¿Qué opinas sobre su evolución?</span><br>
+                <input type="text" id="evolucion" placeholder="Escribe aquí"><br>
+            </label>
+            <label for="agradar">
+                <span>¿Te agradan?</span><br>
+                <input type="text" id="agradar" placeholder="Escribe aquí"><br>
+            </label>
+            <label for="tener-uno">
+                <span>¿Te gustaría tener uno?</span><br>
+                <input type="text" id="tener-uno" placeholder="Escribe aquí"><br>
+            </label>
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+    
+    <section>
+        <h1>Responde lo que te parece correcto.</h1>
+        <p>Los robots deberian...</p>
+        <form action="/Thanks.html">
+            <label for="ser-solo-maquinas">
+                <input id="ser-solo-maquinas" type="checkbox" name="deberian"> Ser solo máquinas<br>
+            </label>
+            <label for="ser-cuidados">
+                <input id="ser-cuidados" type="checkbox" name="deberian"> Ser cuidados<br>
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    
+
+    
 </body>
 </html>
