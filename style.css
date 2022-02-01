@@ -3,31 +3,31 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner {   
-    padding: 0%;
-    text-align: center;
-}
-    
 
-a {
-    text-decoration: none;
-}
-.clase-nav a {
-    color: #fff;
-    font-size: 1rem;
-    font-family: 'Amatic SC', cursive;
-    
-}
+
 
 
 .titulo-index {
+    margin: 0px;
     text-align: center;
     font-family: 'Acme', sans-serif;
+    background-color: rgb(255, 193, 193); 
     color: rgb(255, 255, 255);
-    background-color: rgba(255, 217, 240, 0.842);
     -webkit-text-stroke: .1px rgba(114, 86, 86, 0.842);
     letter-spacing: 5px;   
 }
+
+.integrantes {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 7px;
+}
+.integrantes:hover {
+    transform: scale(1.2);
+}
+
 
 .section-index {
     display: grid;
@@ -37,6 +37,62 @@ a {
     justify-items: center;
     text-align: center;
 }
+
+.soraka-image {
+    background-color: #f08bb583;
+}
+.soraka-tittle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #000000a2;  
+}
+.soraka-circle {
+    border-radius: 150px;  
+    border-color: rgb(228, 255, 184);
+    border-width: 10px;
+    border-style: double; 
+      
+}
+.soraka-image:hover {
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    transition:all .3s ease-in-out;
+}
+.annie-circle {
+    border-radius: 150px;  
+    border-color: rgb(234, 151, 255);
+    border-width: 10px;
+    border-style: double; 
+}
+
+.annie-image:hover {
+        -webkit-transform:scale(1.2);transform:scale(1.2);
+        transition:all .3s ease-in-out;
+    }
+
+.sivir-circle {
+        border-radius: 150px;  
+        border-color: rgb(234, 151, 255);
+        border-width: 10px;
+        border-style: double; 
+    }
+    
+.sivir-image:hover {
+        -webkit-transform:scale(1.2);transform:scale(1.2);
+         transition:all .3s ease-in-out;
+        }
+.gwen-circle {
+            border-radius: 150px;  
+            border-color: rgb(234, 151, 255);
+            border-width: 10px;
+            border-style: double; 
+        }
+        
+.gwen-image:hover {
+                -webkit-transform:scale(1.2);transform:scale(1.2);
+                transition:all .3s ease-in-out;
+            }
+            
+
 
    
 
