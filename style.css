@@ -155,7 +155,10 @@ body {
         -webkit-box-shadow: 0px 0px 5px 5px #e4ff6af1;
  }
             
-
+.pie-pagina {
+    padding: .1px;
+    background-color: #fff;
+}
 
    
 
