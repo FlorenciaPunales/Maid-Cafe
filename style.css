@@ -3,14 +3,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-header {
+
+a {
+    text-decoration: none;
+}
+
+.titulo-index {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(250, 210, 227);
+}
+
+/*Soraka Page*/
+.header-soraka {
     background-color: rgba(255, 160, 219, 0.733);
     padding: 10px;
-    
-    
-    
+      
 }
-.titulo {
+.titulo-soraka {
     text-align: center;
     color: #fff;
     margin-top: 0;
