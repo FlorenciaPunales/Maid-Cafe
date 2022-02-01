@@ -98,6 +98,8 @@ body {
     }
 
 .sivir-image {
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: #5bf79c79;
     border-radius: 10px;
 }
@@ -126,6 +128,8 @@ body {
         -webkit-box-shadow: 0px 0px 5px 5px #91f7e6;
         }
 .gwen-image {
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: #f4ff9286;
     border-radius: 10px;
 }       
@@ -156,8 +160,23 @@ body {
  }
             
 .pie-pagina {
-    padding: .1px;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.329);
+    margin-bottom: 0%;
+    padding: 10px;
+    display: flex;  /* Para que inicie el flex */
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* Para separar */
+   
+}
+.texto-pie {
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    -webkit-text-stroke: .1px rgb(0, 0, 0);
+
+}
+.texto-pie:hover {
+    transform: scale(1.2);
 }
 
    
