@@ -3,29 +3,30 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner {
-    width: 100%;
-    height: 6.875em;
+.banner {   
+    padding: 0%;
+    text-align: center;
 }
+    
 
 a {
     text-decoration: none;
 }
-.enlaces-nav {
-    margin-top: 0;
-    padding-top: 0;
+.clase-nav a {
     color: #fff;
-    font-size: 2.5em;
+    font-size: 1rem;
+    font-family: 'Amatic SC', cursive;
+    
 }
+
 
 .titulo-index {
     text-align: center;
     font-family: 'Acme', sans-serif;
     color: rgb(255, 255, 255);
+    background-color: rgba(255, 217, 240, 0.842);
     -webkit-text-stroke: .1px rgba(114, 86, 86, 0.842);
-    letter-spacing: 5px;
-    background-color: rgba(247, 205, 227, 0.705);
-    padding: 20px;
+    letter-spacing: 5px;   
 }
 
 .section-index {
@@ -34,6 +35,7 @@ a {
     grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-items: center;
+    text-align: center;
 }
 
    
