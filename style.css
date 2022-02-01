@@ -97,7 +97,19 @@ body {
         -webkit-box-shadow: 0px 0px 5px 5px #80e1ff;
     }
 
-
+.sivir-image {
+    background-color: #5bf79c79;
+    border-radius: 10px;
+}
+.sivir-tittle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #000000a2;
+}
+.sivir-image p {
+    font-family: 'Permanent Marker', cursive;
+    color: rgba(30, 30, 30, 0.644);
+}
 .sivir-circle {
         border-radius: 150px;  
         border-color: rgba(255, 255, 255, 0.418);
@@ -108,18 +120,40 @@ body {
 .sivir-image:hover {
         -webkit-transform:scale(1.2);transform:scale(1.2);
          transition:all .3s ease-in-out;
+         border-radius:10%;
+        -webkit-border-radius:10%;
+        box-shadow: 0px 0px 5px 5px #91f7e6;
+        -webkit-box-shadow: 0px 0px 5px 5px #91f7e6;
         }
+.gwen-image {
+    background-color: #f4ff9286;
+    border-radius: 10px;
+}       
+
+.gwen-tittle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #000000a2; 
+}
+.gwen-image p {
+    font-family: 'Permanent Marker', cursive;
+    color: rgba(30, 30, 30, 0.644);
+}
 .gwen-circle {
-            border-radius: 150px;  
-            border-color: rgb(234, 151, 255);
-            border-width: 10px;
-            border-style: double; 
-        }
+    border-radius: 150px;  
+    border-color: rgba(255, 255, 255, 0.418);
+    border-width: 10px;
+    border-style: double; 
+  }
         
 .gwen-image:hover {
-                -webkit-transform:scale(1.2);transform:scale(1.2);
-                transition:all .3s ease-in-out;
-            }
+        -webkit-transform:scale(1.2);transform:scale(1.2);
+        transition:all .3s ease-in-out;
+        border-radius:10%;
+        -webkit-border-radius:10%;
+         box-shadow: 0px 0px 5px 5px #e4ff6af1;
+        -webkit-box-shadow: 0px 0px 5px 5px #e4ff6af1;
+ }
             
 
 
