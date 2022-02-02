@@ -188,7 +188,7 @@ body {
     border-radius: 150px;
     border-width: 10px;
     border-radius: 150px;  
-    border-color: rgba(255, 106, 205, 0.288);
+    border-color: rgba(255, 106, 205, 0.26);
     border-width: 10px;
     border-style: solid;
 }
@@ -202,9 +202,18 @@ body {
 }
 .header-soraka {
     overflow: hidden;
+    padding: 1em;
 }
 .inicio-soraka {
     float: left;
+}
+.inicio-texto-soraka {
+    color: #fff;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;    
+}
+.inicio-soraka:hover {
+    transform: scale(1.2);
 }
 .div-imagen-soraka {
     display: flex;
@@ -214,8 +223,47 @@ body {
 .siguiente-soraka {
     float: right;
 }
+.siguiente-texto-soraka {
+    color: #fff;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;    
+}
+.siguiente-soraka:hover {
+    transform: scale(1.2);
+}
 .titulo-soraka{
-    margin: 0;
+    border-radius: 150px;
+    background-color: rgba(248, 176, 246, 0.37);
     text-align: center;
     
+    
 }
+.titulo-sorakah {
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.829);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.subtitulo-soraka {
+    color: floralwhite;
+    
+}
+
+.descripcion-soraka {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    background: rgb(63,251,246);
+    background: radial-gradient(circle, rgba(63,251,246,0.27494747899159666) 0%, rgba(255,126,243,1) 100%);
+
+}
+.descripcion-soraka p {
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: blanchedalmond;
+    -webkit-text-stroke: .7px rgb(0, 0, 0);
+}
+
